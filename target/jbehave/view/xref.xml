@@ -1,0 +1,42 @@
+<xref>
+  <whenMade>1502708995676</whenMade>
+  <createdBy>JBehave</createdBy>
+  <metaFilter>-ignore</metaFilter>
+  <meta/>
+  <stories>
+    <story>
+      <description></description>
+      <narrative>In order to 
+As a Customer
+I want to able to login
+</narrative>
+      <name>BlibliLogin.story</name>
+      <path>stories/consult_dictionary/BlibliLogin.story</path>
+      <html>stories.consult_dictionary.BlibliLogin.html</html>
+      <meta></meta>
+      <scenarios>Scenario:login dulu gan
+Given home page is opened
+When I login to blibli
+Then I can see my name in the site&#xd;
+&#xd;
+Narrative:&#xd;
+As a Customer&#xd;
+I want to able to login&#xd;
+So that I can search for product
+
+
+Scenario:beli minyak
+Given already logged in
+When I search minyak goreng
+Then I can see product list
+
+
+</scenarios>
+      <passed>true</passed>
+      <pending>true</pending>
+      <started>1502708917861</started>
+      <duration>73773</duration>
+    </story>
+  </stories>
+  <stepMatches/>
+</xref>

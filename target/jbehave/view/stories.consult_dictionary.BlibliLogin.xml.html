@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>stories.consult_dictionary.BlibliLogin</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="stories/consult_dictionary/BlibliLogin.story" title="">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="As a">Customer</inOrderTo>
+  <asA keyword="I want to">able to login</asA>
+  <iWantTo keyword="So that">I can search for product</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="login dulu gan">
+<step outcome="successful">Given home page is opened</step>
+<step outcome="successful">When I login to blibli</step>
+<step outcome="pending" keyword="PENDING">Then I can see my name in the site
+
+Narrative:
+As a Customer
+I want to able to login
+So that I can search for product</step>
+<pendingMethod>@Then(&quot;I can see my name in the site\r\n\r\nNarrative:\r\nAs a Customer\r\nI want to able to login\r\nSo that I can search for product&quot;)
+@Pending
+public void thenICanSeeMyNameInTheSiteNarrativeAsACustomerIWantToAbleToLoginSoThatICanSearchForProduct() {
+  // PENDING
+}
+</pendingMethod>
+</scenario>
+<scenario keyword="Scenario:" title="beli minyak">
+<step outcome="successful">Given already logged in</step>
+<step outcome="successful">When I search minyak goreng</step>
+<step outcome="successful">Then I can see product list</step>
+</scenario>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>

@@ -1,0 +1,9 @@
+com\futures\pages\DictionaryPage.class
+com\futures\steps\DefinitionSteps.class
+com\futures\pages\BlibliHomePage.class
+com\futures\steps\serenity\EndUserSteps.class
+com\futures\pages\DictionaryPage$1.class
+com\futures\Behaviour\BeliMinyakBehaviour.class
+com\futures\AcceptanceTestSuite.class
+com\futures\pages\BeliMinyak.class
+com\futures\Behaviour\BlibliHomePageBehaviour.class

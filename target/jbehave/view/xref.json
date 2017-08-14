@@ -1,0 +1,22 @@
+{"xref": {
+  "whenMade": 1502708995676,
+  "createdBy": "JBehave",
+  "metaFilter": "-ignore",
+  "meta": [],
+  "stories": [
+    {
+      "description": "",
+      "narrative": "In order to \nAs a Customer\nI want to able to login\n",
+      "name": "BlibliLogin.story",
+      "path": "stories/consult_dictionary/BlibliLogin.story",
+      "html": "stories.consult_dictionary.BlibliLogin.html",
+      "meta": "",
+      "scenarios": "Scenario:login dulu gan\nGiven home page is opened\nWhen I login to blibli\nThen I can see my name in the site\r\n\r\nNarrative:\r\nAs a Customer\r\nI want to able to login\r\nSo that I can search for product\n\n\nScenario:beli minyak\nGiven already logged in\nWhen I search minyak goreng\nThen I can see product list\n\n\n",
+      "passed": true,
+      "pending": true,
+      "started": 1502708917861,
+      "duration": 73773
+    }
+  ],
+  "stepMatches": []
+}}

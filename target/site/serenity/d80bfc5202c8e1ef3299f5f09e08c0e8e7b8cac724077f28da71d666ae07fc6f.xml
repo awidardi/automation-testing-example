@@ -1,0 +1,43 @@
+<acceptance-test-run title="beli minyak" name="beli minyak" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="44872" timestamp="2017-08-14T18:09:06.760+07:00" session-id="704fbdde-77c3-4e41-a765-14b818f86139">
+  <user-story id="BlibliLogin" name="Blibli login" path="stories/consult_dictionary/BlibliLogin.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="feature"/>
+    <tag name="Consult dictionary/Blibli login" type="story"/>
+  </tags>
+  <test-group name="Given already logged in" result="SUCCESS">
+    <screenshots>
+      <screenshot image="78b002f30d4f221062b3f55075c1bc0f.png"/>
+      <screenshot image="45ad4a66cd59cc0af2510162c82d6fa2.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1579">
+      <screenshots>
+        <screenshot image="84efd198d292081e68a505b9cc84587a.png"/>
+      </screenshots>
+      <description>Check user already logged in</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I search minyak goreng" result="SUCCESS">
+    <screenshots>
+      <screenshot image="92f9cfc45caa8f830c78a4f609e10d3e.png"/>
+      <screenshot image="05d390d1a9b4781defe5c891126ed000.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="39716">
+      <screenshots>
+        <screenshot image="c84eef1568c045028439565a5f363540.png"/>
+        <screenshot image="1b71b2d80e455774cfe2c43d16401df5.png"/>
+      </screenshots>
+      <description>Input search</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I can see product list" result="SUCCESS">
+    <screenshots>
+      <screenshot image="7d9ab08716f0cdeee5453b84d5a90684.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="400">
+      <screenshots>
+        <screenshot image="7d9ab08716f0cdeee5453b84d5a90684.png"/>
+      </screenshots>
+      <description>Check already bought</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
